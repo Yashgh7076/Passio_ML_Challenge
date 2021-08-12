@@ -1,7 +1,7 @@
 FROM tensorflow/tensorflow
 
+WORKDIR /challenge
+
 COPY . .
 
-RUN mkdir /model
-
-CMD ["python" , "passio_ml_challenge.py"]
+CMD ["python" , "passio_challenge.py"]
