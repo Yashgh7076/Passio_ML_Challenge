@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow
 
-WORKDIR /challenge
+WORKDIR /model
 
 COPY . .
 
